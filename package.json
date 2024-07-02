@@ -1,0 +1,40 @@
+{
+    "name": "pptxshape",
+    "version": "1.0.1",
+    "description": "pptx 预设形状全部列表",
+    "main": "./dist/index.umd.js",
+    "module": "./dist/index.js",
+    "type": "module",
+    "types": "./dist/types/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "keywords": [
+        "pptxshape"
+    ],
+    "author": "fangao1024",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.24.3",
+        "@microsoft/fetch-event-source": "^2.0.1",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-commonjs": "^25.0.7",
+        "@rollup/plugin-eslint": "^9.0.5",
+        "@rollup/plugin-json": "^6.1.0",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-terser": "^0.4.4",
+        "@rollup/plugin-typescript": "^11.1.6",
+        "@types/node": "^20.11.30",
+        "@typescript-eslint/eslint-plugin": "^7.3.1",
+        "@typescript-eslint/parser": "^7.3.1",
+        "express": "^4.19.1",
+        "multer": "^1.4.5-lts.1",
+        "rollup": "^4.13.0",
+        "tslib": "^2.6.3",
+        "tsx": "^4.15.6",
+        "typescript": "^5.5.3"
+    }
+}
